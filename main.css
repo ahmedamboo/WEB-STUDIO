@@ -1,0 +1,541 @@
+*
+{
+ -webkit-box-sizing:border-box;
+ -moz-box-sizing:border-box;
+ box-sizing:border-box;
+    padding: 0; border: 0; margin: 0; 
+    box-sizing: border-box;
+}
+
+hr
+{
+	margin: 0px;
+	padding: 0px;
+		
+}
+
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #DDD;
+    color: #555;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+#back2Top:hover {
+    background-color: #DDF;
+    color: #000;
+}
+
+body
+{
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+
+
+
+/*start header*/
+
+.header
+{
+	
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+
+.header .row .info
+{
+	margin-top: 70px;
+	padding-left: 70px;
+	
+	
+	
+	
+}
+
+.header .row .info h1{
+	
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+
+.header .row .info p
+{
+	font-size:20px;
+	margin-top: 20px;
+	margin-bottom: 30px
+}
+
+
+
+.header .row .info .btn
+{
+	padding: 10px  30px 10px 30px;
+	margin-bottom: 10px;
+	
+}
+
+.header .row .pic
+{
+padding-left: 0px !important;
+}
+
+.header .row .pic img
+{
+	width: 100%;
+	height: 100%;
+	
+	
+}
+
+
+/*end header*/
+
+
+/*start content*/
+.content 
+{
+	width: 100%;
+	overflow: hidden;
+}
+.content .row .pic-two 
+{
+	padding-left: 0px !important;
+	
+}
+
+.content .row .pic h1
+{
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+.content .row .pic p
+{
+	font-size:20px;
+	margin-top: 20px;
+	margin-bottom: 30px
+}
+
+.content .row .pic .btn
+
+{
+	padding: 10px  30px 10px 30px;
+	margin-bottom: 10px;
+}
+
+.content .row .info-two
+{
+	margin-top: 70px;
+    padding-left: 70px;
+}
+
+.content .row .info-two .btn
+{
+	padding: 10px  30px 10px 30px;
+	margin-bottom: 10px;
+}
+
+
+
+
+/*end content*/
+
+
+
+/*sliederr*/
+.slider
+{
+	width: 100%;
+	
+	 position: relative;
+	
+}
+
+ .slider .item
+{
+	
+	height: 250px;
+	position: relative;
+}
+
+ 
+
+.slider .owl-carousel .owl-nav .owl-prev{
+	
+position: absolute;
+    top: 25%;
+    transform: translateY(-50%);
+	font-size: 50px;
+    
+	
+}
+
+
+
+.owl-carousel .owl-nav button.owl-next
+{
+	position: absolute;
+    top: 15%;
+    right: 1%;
+    font-size: 50px;
+}
+
+
+ .slider .item:hover .overlay
+
+{
+	display: block;
+}
+
+
+ .slider .item .overlay
+{
+  background-color:rgb(0 , 0 , 0 , 0.6);
+  width:100%;
+  height:100%;
+  position:absolute;
+	top: 0;
+	left: 0;
+  z-index:2;
+  display:none;
+  text-align:center;
+  color:white;
+  padding-top:30px;
+	transition: all 0.5 ease-in-out;
+  
+    
+}
+.slider button
+{
+  margin-top:20px;
+  background:none;
+  padding:10px 20px 10px 20px;
+  border:1px solid white;
+  border-radius:20px;
+  color:white;
+  
+  
+  
+}
+
+.slider .Gallery
+{
+	text-align: center;
+    margin: 20px 15px 20px 15px;
+	padding: 15px;
+}
+
+.slider .Gallery h1
+{
+color:#676767;
+font-weight: lighter;
+	
+}
+
+
+.slider .Gallery p
+{
+	line-height: 1.7;
+	color:#676767;
+}
+
+
+/*slider*/
+
+
+
+/*start items*/
+.items
+{
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+
+.items .inf:nth-child(3)
+
+{
+	border-left: 2px solid #CCCCCC;
+	border-right: 2px solid #CCCCCC;
+}
+
+
+.items i
+
+{
+	border: 1px solid gray;
+	border-radius: 50%;
+	padding: 15px;
+	margin-bottom: 15px;
+	
+	
+}
+
+.items h2
+{
+	color: #8E8E8E;
+	font-weight: lighter;
+	font-family: 'Catamaran', sans-serif;
+	
+
+}
+
+.items .row .Gallery{
+	
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 50px;
+	
+		
+	
+}
+
+.items .Gallery h1
+{
+color:#676767;
+font-weight: lighter;
+	
+}
+
+.items .row .Gallery p
+{
+	line-height: 1.7;
+	color:#676767;
+}
+
+
+
+
+/*end items*/
+
+/* stratfooter*/
+.footer
+{
+	width: 100%;
+	overflow: hidden;
+	
+	
+}
+.footer .row
+{
+	text-align: center;
+	overflow: hidden;
+}
+
+.footer .row .icons i
+{
+	margin-bottom: 60px;
+	margin-top: 60px;
+	margin-left: 10px;
+	border: 1px solid #D3D3D3;
+	display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
+	font-size: 20px;
+}
+
+.footer .row .icons i:hover
+{
+	color: #3CB2C1;
+	border-color: #3CB2C1;
+	 transition: all 0.5s  ease-in-out;
+	cursor: pointer;
+
+}
+
+
+.footer .row .icons p
+
+
+{
+	margin-bottom: 70px
+}
+
+
+/*end footer
+
+
+
+
+/* smart phone*/
+@media (max-width: 768px)
+	
+	
+{
+	
+	/*headr*/
+	
+	.header
+	{
+		width: 100%;
+		overflow: hidden;
+		text-align: center;
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	
+	.header .pic 
+	{
+		width:100%;
+		height: 300px;
+		padding-right: 0px !important;
+			
+	}
+	 .header .row .info
+	{
+		padding: 0px;
+		margin: 25px 0px 0px 0px ;
+			
+	}
+	 .header .row button
+	{
+		background: none;
+		margin-bottom: 40px;
+		border: 1px solid #D3D3D3;
+		border-radius: 20px;
+		padding: 12px 100px 12px 100px;
+		
+	}
+	
+	 .header .row button:hover
+	{
+		border-color: #3CB2C1;
+		color:#3CB2C1;
+		transition: all 0.2s  ease-in-out;
+	     cursor: pointer;
+
+ 
+	}
+	
+	/*header*/
+	
+	
+	/*content*/
+	.content
+	{
+		overflow: hidden;
+		width: 100%;
+		text-align: center;
+	}
+	
+	.content .pic-two
+	
+	{
+		padding-right: 0px !important;
+	}
+	
+	
+	 .content .info-two 
+	{
+		padding: 0px !important;
+		margin: 0px;
+			
+	}
+
+	 .content .info-two h2
+	{
+		font-size:50px;
+	   margin-bottom: 20px;
+	}
+ .content .info-two p
+	{
+    font-size:20px;
+	margin-top: 20px;
+	margin-bottom: 30px
+	}
+	
+	.content .row button
+	{
+		background: none;
+		margin-bottom: 40px;
+		border: 1px solid #D3D3D3;
+		border-radius: 20px;
+		padding: 12px 100px 12px 100px;
+		
+	}
+	
+	 .content .row button:hover
+	{
+		border-color: #3CB2C1;
+		color:#3CB2C1;
+		transition: all 0.2s  ease-in-out;
+	     cursor: pointer;
+
+ 
+	}
+	
+	
+	/*content*/
+
+	
+
+	/*slider*/
+	
+	.slider
+	{
+		width: 100%;
+		overflow: hidden;
+	}
+	
+	.slider .owl-nav
+	
+	{
+		display: none;
+	}
+	
+	
+	
+	
+	/*items*/
+	.items
+	{
+		width: 100%;
+		overflow: hidden;
+	}
+	
+	
+	.items .inf 
+	{
+		
+	    border-bottom: 1px solid #D3D3D3;
+		border-right:none !important;
+	    border-left: none !important;
+	}
+	
+	.items .inf:nth-child(3)
+	{
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	/*items*/
+	
+	.footer  .icons p
+	{
+		font-size: 15px;
+	}
+	
+}
+
+
+
+/*
